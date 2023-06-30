@@ -19,7 +19,7 @@ html {
     scroll-behavior: smooth;
 }
 main{
-    background-color: #f5f5f5;
+    background-color: #D9D9D9;
 }
 .contents {
     /* width: 800px; */
@@ -55,7 +55,7 @@ header {
     margin-bottom: -1.1px;
     z-index: 2;
     position: relative;
-    position: ;
+    padding-top: 10px;
 }
 .header_top {
     display: flex;
@@ -72,6 +72,10 @@ header {
 }
 .header_link {
     text-align: center;
+    font-weight: 600;
+}
+.header_link li:hover {
+    color: white;
 }
 .header_link ul {
     display: flex;
@@ -226,12 +230,13 @@ h1 {
     .profile_table td{
         padding: 8px 15px;
         text-align: center;
+        border: 1px solid white;
     }
      .profile_table tr:nth-child(n) td:last-child{
-        color: palegreen;
+        color: #8a5cff;
     }
     .profile_table tr:nth-child(2n) td:last-child{
-        background-color: #009efd;
+        background-color: #8a5cff;
         color: white;
     }
     .profile_table td:first-child {
